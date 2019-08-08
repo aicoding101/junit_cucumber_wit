@@ -1,7 +1,6 @@
 package utils;
 
 import com.google.common.base.Function;
-import manifold.shade.org.dataloader.Try;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;

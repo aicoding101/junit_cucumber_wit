@@ -16,17 +16,17 @@ public class BriteLoginPage extends BasePage {
     private WebElement loginButton;
 
     public BriteLoginPage enterEmail(String userEmail){
-        emailInputField.eSendKeys(userEmail);
+        emailInputField.sendKeys(userEmail);
         return this;
     }
 
     public BriteLoginPage enterPassword(String password){
-        passwordInputField.eSendKeys(password);
+        passwordInputField.sendKeys(password);
         return this;
     }
 
     public BriteLoginPage clickLoginButton(){
-        loginButton.eClick();
+        loginButton.click();
         return this;
     }
 }

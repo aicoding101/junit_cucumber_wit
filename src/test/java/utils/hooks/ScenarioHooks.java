@@ -22,6 +22,7 @@ public class ScenarioHooks {
             default: // log some error message or start chrome by default
         }
         Driver.getDriver().manage().timeouts().implicitlyWait(Settings.IMPLICITWAITTIME, TimeUnit.SECONDS);
+        Driver.getDriver().manage().window().maximize();
     }
 
     @After
